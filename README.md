@@ -20,3 +20,5 @@ The role of these calls within TC39 process:
 - Distribute information about TC39, Stage 3+ proposals, etc
 - Expose opportunities to get involved (in GitHub, docs, etc)
 - Not a consensus-seeking group, just a data source
+
+Note that these are not an official TC39 effort, but rather an undertaking of some of its delegates.
