@@ -3,10 +3,10 @@
 Some TC39 delegates are organizing meetings with various stakeholders in order to get more input in the process and share information with the community. Current calls include:
 - Educators
 - Frameworks
+- Tools and transpilers
 
 Planned future calls include:
 - Open-to-everyone community call
-- Tools and transpilers
 - Academia
 - Collaboration with the [Node open standards team](https://github.com/nodejs/open-standards)
 
