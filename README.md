@@ -20,7 +20,3 @@ The role of these calls within TC39 process:
 - Distribute information about TC39, Stage 3+ proposals, etc
 - Expose opportunities to get involved (in GitHub, docs, etc)
 - Not a consensus-seeking group, just a data source
-
-#### Why is this a personal repository?
-
-These outreach groups are not an official TC39 effort, but rather an undertaking of some of its delegates. It's hoped that, in the near future, they will be rolled into some larger organization, such as Ecma International or a neutral foundation.
