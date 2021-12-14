@@ -1,9 +1,9 @@
 # JS outreach groups
 
 Some TC39 delegates are organizing meetings with various stakeholders in order to get more input in the process and share information with the community. Current calls include:
-- Educators
-- Frameworks
-- Tools and transpilers
+- Educators - Monthly on second Thursday 12:00:00 GMT-0400 (Eastern Daylight Time) 
+- Tools and transpilers - Monthly on the fourth Wednesday 12:00:00 GMT-0400 (Eastern Daylight Time) 
+- ...
 
 Planned future calls include:
 - Open-to-everyone community call
@@ -12,7 +12,7 @@ Planned future calls include:
 
 This repository is used to archive meeting minutes.
 
-If you would like a calendar invitation to one of these calls, please get in touch by filing an issue on this repository or writing an email to littledan@igalia.com 
+If you would like a calendar invitation to one of these calls, please get in touch by filing an issue on this repository or writing an email to rcintra@igalia.com 
 
 The role of these calls within TC39 process:
 - Input on direction/priorities
