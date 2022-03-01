@@ -12,7 +12,7 @@ Planned future calls include:
 
 This repository is used to archive meeting minutes.
 
-If you would like a calendar invitation to one of these calls, please get in touch by filing an issue on this repository or writing an email to rcintra@igalia.com 
+If you would like a calendar invitation to one of these calls, please get in touch by writing an email to rcintra@igalia.com or fill the [contact form](https://forms.gle/rSNWHknikVSpGHmD6).
 
 The role of these calls within TC39 process:
 - Input on direction/priorities
