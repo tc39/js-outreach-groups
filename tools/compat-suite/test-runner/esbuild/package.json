@@ -1,0 +1,9 @@
+{
+  "name": "compat-runner-esbuild",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

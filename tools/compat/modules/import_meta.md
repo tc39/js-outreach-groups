@@ -1,11 +1,13 @@
 ---
 __compat:
-  description: "<code>import.meta</code>"
-  mdn_url: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta
+  description: <code>import.meta</code>
+  mdn_url: >-
+    https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta
   spec_url:
-  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import.meta
-  - https://vite.dev/guide/env-and-mode
-  - https://webpack.js.org/api/module-variables/#importmeta
+    - >-
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import.meta
+    - "https://vite.dev/guide/env-and-mode"
+    - "https://webpack.js.org/api/module-variables/#importmeta"
   support:
     vite:
       version_added: 1.0.0
@@ -29,45 +31,47 @@ __compat:
     deprecated: false
 url:
   __compat:
-    description: "<code>import.meta.url</code>"
+    description: <code>import.meta.url</code>
     support:
       vite:
         version_added: 1.0.0
       webpack:
         version_added: 5.0.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
       nodejs:
         version_added: 18.19.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
-        - Cannot <code>fetch()</code> the result of <code>import.meta.url</code>
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - >-
+            Cannot <code>fetch()</code> the result of
+            <code>import.meta.url</code>
       bun:
         version_added: 1.0.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
       deno:
         version_added: 1.28.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
       esbuild:
         version_added: false
       rspack:
         version_added: 1.1.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
       rsbuild:
         version_added: 1.1.0
         notes:
-        - "<code>import.meta.url</code> has <code>file://</code> protocol"
+          - "<code>import.meta.url</code> has <code>file://</code> protocol"
     status:
       experimental: false
       standard_track: true
       deprecated: false
   web_worker:
     __compat:
-      description: "<code>Worker</code> from <code>import.meta.url</code>"
-      mdn_url: https://developer.mozilla.org/en-US/docs/Web/API/Worker/Worker#url
+      description: <code>Worker</code> from <code>import.meta.url</code>
+      mdn_url: "https://developer.mozilla.org/en-US/docs/Web/API/Worker/Worker#url"
       support:
         vite:
           version_added: 1.0.0
@@ -76,8 +80,8 @@ url:
         nodejs:
           version_added: 18.19.0
           notes:
-          - Using the <code>node:worker_threads</code> API
-          - 'Fails: <code>import.meta.url</code> can load a <code>Worker</code>'
+            - "Using the <code>node:worker_threads</code> API"
+            - "Fails: <code>import.meta.url</code> can load a <code>Worker</code>"
           partial_implementation: true
         bun:
           version_added: 1.1.0
@@ -95,26 +99,32 @@ url:
         deprecated: false
 resolve:
   __compat:
-    description: "<code>import&#8288;.meta.resolve</code>"
+    description: <code>import&#8288;.meta.resolve</code>
     support:
       nodejs:
         version_added: 18.19.0
         notes:
-        - Cannot <code>fetch()</code> the result of <code>import.meta.resolve</code>
+          - >-
+            Cannot <code>fetch()</code> the result of
+            <code>import.meta.resolve</code>
       vite:
         version_added: 5.0.0
         notes:
-        - Cannot <code>fetch()</code> the result of <code>import.meta.resolve</code>
+          - >-
+            Cannot <code>fetch()</code> the result of
+            <code>import.meta.resolve</code>
       webpack:
         version_added: false
       bun:
-      - version_added: 1.1.0
-      - version_added: 1.0.0
-        version_removed: 1.1.0
-        notes:
-        - Cannot <code>fetch()</code> the result of <code>import.meta.resolve</code>
-        - 'Fails: Returns an string'
-        partial_implementation: true
+        - version_added: 1.1.0
+        - version_added: 1.0.0
+          version_removed: 1.1.0
+          notes:
+            - >-
+              Cannot <code>fetch()</code> the result of
+              <code>import.meta.resolve</code>
+            - "Fails: Returns an string"
+          partial_implementation: true
       deno:
         version_added: 1.28.0
       esbuild:
@@ -129,7 +139,7 @@ resolve:
       deprecated: false
 env:
   __compat:
-    description: "<code>import&#8288;.meta.env</code>"
+    description: <code>import&#8288;.meta.env</code>
     support:
       vite:
         version_added: 1.0.0
@@ -138,9 +148,10 @@ env:
       bun:
         version_added: 1.1.0
         notes:
-        - 'Fails: <code>import&#8288;.meta.env.{DEV,PROD}</code> exist and are
-          mutually exclusive'
-        - 'Fails: <code>import&#8288;.meta.env.MODE</code> is a string'
+          - >-
+            Fails: <code>import&#8288;.meta.env.{DEV,PROD}</code> exist and are
+            mutually exclusive
+          - "Fails: <code>import&#8288;.meta.env.MODE</code> is a string"
         partial_implementation: true
       deno:
         version_added: false
@@ -151,9 +162,10 @@ env:
       rsbuild:
         version_added: 1.1.0
         notes:
-        - 'Fails: <code>import&#8288;.meta.env</code> is an object'
-        - 'Fails: <code>import&#8288;.meta.env</code> gracefully handles missing
-          values'
+          - "Fails: <code>import&#8288;.meta.env</code> is an object"
+          - >-
+            Fails: <code>import&#8288;.meta.env</code> gracefully handles
+            missing values
         partial_implementation: true
       rspack:
         version_added: false
@@ -163,7 +175,7 @@ env:
       deprecated: false
   fallback:
     __compat:
-      description: "<code>import&#8288;.meta.env?.X</code>"
+      description: <code>import&#8288;.meta.env?.X</code>
       support:
         esbuild:
           version_added: 0.18.0
@@ -187,7 +199,7 @@ env:
         deprecated: false
 hot:
   __compat:
-    description: "<code>import&#8288;.meta.hot</code>"
+    description: <code>import&#8288;.meta.hot</code>
     support:
       vite:
         version_added: 1.0.0
@@ -211,17 +223,17 @@ hot:
       deprecated: false
 webpack:
   __compat:
-    description: "<code>import&#8288;.meta.webpack*</code>"
+    description: <code>import&#8288;.meta.webpack*</code>
     support:
       vite:
         version_added: false
       webpack:
-      - version_added: 5.70.0
-      - version_added: 5.0.0
-        version_removed: 5.70.0
-        notes:
-        - 'Fails: <code>import&#8288;.meta.webpackContext</code> is available'
-        partial_implementation: true
+        - version_added: 5.70.0
+        - version_added: 5.0.0
+          version_removed: 5.70.0
+          notes:
+            - "Fails: <code>import&#8288;.meta.webpackContext</code> is available"
+          partial_implementation: true
       bun:
         version_added: false
       deno:

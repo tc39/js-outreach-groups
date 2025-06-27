@@ -1,0 +1,10 @@
+{
+  "name": "compat-runner-rspack",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@rspack/core": "^1.1.0",
+    "memfs": "^4.14.0"
+  }
+}
