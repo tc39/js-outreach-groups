@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "module": "preserve",
+    "skipLibCheck": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "compat-runner-webpack",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "memfs": "^4.14.0",
+    "webpack": "^5.96.1"
+  }
+}
